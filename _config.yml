@@ -1,0 +1,3 @@
+makrdown: kmarkdown
+baseurl: /breast_cancer
+exclude: ["README.md"]
