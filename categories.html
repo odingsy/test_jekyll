@@ -2,4 +2,13 @@
 layout: default
 ---
 
-<h1>Categories</h1>
+<h1>Excerpts</h1>
+
+<ul>
+  {% for excerpt in site.posts %}
+  <li>
+    <a href="">{{excerpt.title}}</a>
+    <p>{{excerpt.meta}}</p>
+  </li>
+  {% endfor%}
+</ul>

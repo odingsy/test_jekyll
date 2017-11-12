@@ -1,19 +1,15 @@
-
 <!DOCTYPE html>
 <html lang="en-ca">
   <head>
     <meta charset="utf-8">
     <title>TITLE: An introduction to breast cancer pathology</title>
+    <link href="{{site.baseirl}}/css/common.css" rel="stylesheet">
+    
   </head>
   <body>
     <header>
       <h1>BODY: An introduction to breast cancer pathology</h1>
-      <nav>
-	<ul>
-	  <li><a hef="{{site.baseurl}}/index.html">Home</a></li>
-	  <li><a hef="{{site.baseurl}}/categories.html">Categories</a></li>
-	</ul>
-      </nav>
+      {% include nav.html navclass='nav-top' %}
     </header>
 
     <main>
@@ -21,6 +17,7 @@
     </main>
 
     <footer>
+      {% include nav.html navclass='nav-btm' %}
       <p>©</p>
     </footer>
   </body>
